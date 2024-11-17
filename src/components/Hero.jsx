@@ -1,10 +1,10 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.jpg";
+import profilePic from "../assets/khushi.jpeg";
 // React
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
-  hidden: { x: -100, opacity: 0 },
+  hidden: { x: 800, opacity: 0 },
   visible: {
     x: 0,
     opacity: 1,
@@ -27,7 +27,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Hardik Joshi
+              Khushi Neema
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -35,7 +35,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Software Devloper
+              Data Scientist
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -50,11 +50,12 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center ">
             <motion.img
-              initial={{ x: 100, opacity: 0 }}
+              initial={{ x: 50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 1.2, duration: 1 }}
               src={profilePic}
-              alt="Hardik Joshi picture"
+              alt="Khushi Neema picture"
+              style={{ width: "400px", height: "500px" }}
             />
           </div>
         </div>

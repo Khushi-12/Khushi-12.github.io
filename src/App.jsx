@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import Conferences from "./components/Conferences";
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
         <Technologies />
         <Experience />
         <Projects />
+        <Conferences />
+
         <Contact />
       </div>
     </div>

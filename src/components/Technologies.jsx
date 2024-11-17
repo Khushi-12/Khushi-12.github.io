@@ -11,6 +11,21 @@ import {
   SiTerraform,
   SiKubernetes,
   SiRedis,
+  SiAnaconda,
+  SiR,
+  SiCplusplus,
+  SiPytorch,
+  SiTensorflow,
+  SiKeras,
+  SiMlflow,
+  SiMicrosoftazure,
+  SiAmazonwebservices,
+  SiTableau,
+  SiPowerbi,
+  SiStreamlit,
+  SiDash,
+  SiPlotly,
+  SiFastapi
 } from "react-icons/si";
 import { FaNodeJs, FaAws, FaLinux } from "react-icons/fa"; // AWS icon from Font Awesome
 
@@ -78,7 +93,97 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <FaNodeJs className="text-7xl" style={{ color: "#339933" }} />{" "}
+          <SiTensorflow className="text-7xl" style={{ color: "green" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiKeras className="text-7xl" style={{ color: "red" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiMlflow className="text-7xl" style={{ color: "blue" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiMicrosoftazure className="text-7xl" style={{ color: "blue" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiTableau className="text-7xl" style={{ color: "orange" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiPowerbi className="text-7xl" style={{ color: "green" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiStreamlit className="text-7xl" style={{ color: "red" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiDash className="text-7xl" style={{ color: "orange" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiPlotly className="text-7xl" style={{ color: "blue" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiFastapi className="text-7xl" style={{ color: "lightblue" }} />{" "}
+          {/* JavaScript */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiCplusplus className="text-7xl" style={{ color: "#339933" }} />{" "}
           {/* Node.js */}
         </motion.div>
         <motion.div
@@ -87,7 +192,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiGo className="text-7xl" style={{ color: "#00ADD8" }} /> {/* Go */}
+          <SiR className="text-7xl" style={{ color: "#00ADD8" }} /> {/* Go */}
         </motion.div>
         <motion.div
           variants={iconVariants(3.5)}
@@ -113,7 +218,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiKubernetes className="text-7xl" style={{ color: "#326CE5" }} />{" "}
+          <SiAnaconda className="text-7xl" style={{ color: "green" }} />{" "}
           {/* Kubernetes */}
         </motion.div>
         <motion.div
@@ -122,7 +227,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiJenkins className="text-7xl" style={{ color: "#D24939" }} />{" "}
+          <SiPytorch className="text-7xl" style={{ color: "#D24939" }} />{" "}
           {/* Jenkins */}
         </motion.div>
         <motion.div
@@ -131,15 +236,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiTerraform className="text-7xl" style={{ color: "#623CE4" }} />{" "}
-          {/* Terraform */}
-        </motion.div>
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800"
-        >
+         
           <SiPostgresql className="text-7xl" style={{ color: "#336791" }} />{" "}
           {/* PostgreSQL */}
         </motion.div>
@@ -158,16 +255,8 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <FaAws className="text-7xl" style={{ color: "#FF9900" }} />{" "}
-          {/* AWS */}
-        </motion.div>
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800"
-        >
-          <SiRedis className="text-7xl" style={{ color: "#DC382D" }} />{" "}
+         
+          <SiAmazonwebservices className="text-7xl" style={{ color: "#DC382D" }} />{" "}
           {/* Redis */}
         </motion.div>
         {/* <div className="rounded-2xl border-4 border-neutral-800">

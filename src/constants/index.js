@@ -46,17 +46,17 @@ export const PROJECTS = [
     title: "Pharmacy Database management system",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    link: "https://github.com/hardikjoshi746",
+      "I designed a relational database to optimize inventory operations, resulting in a 50% improvement in data retrieval efficiency. I developed, tested, debugged, and documented over 1,000 complex PL/SQL queries and database objects, including procedures, window functions, CTEs, and triggers, effectively aligning with business requirements and achieving an 85% satisfaction rate in data collection processes.",
+    technologies: ["MYSQL Workbench","Flask","Python"],
+    link: "https://github.com/Khushi-12",
   },
   {
-    title: "Task Management App",
+    title: "News Research Tool",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    link: "https://github.com/hardikjoshi746",
+      "Spearheaded the development of a Streamlit application with knowledge-based graph (KBG) capabilities, significantly enhancing the ETL pipeline and reducing processing time by 50%, enabling users to efficiently extract information from three relevant articles. Additionally, integrated a question-answering agent utilizing HuggingFace Transformers (BERT), along with LangChain and FAISS, to deliver accurate responses to user queries based on processed news articles.",
+    technologies: ["Streamlit", "Python", "HuggingFace", "LangChain", "FAISS", "ETL Pipeline"],
+    link: "https://github.com/Khushi-12",
   },
   {
     title: "Portfolio Website",
@@ -66,13 +66,45 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "Industrial Financial Health Analysis",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    link: "https://github.com/hardikjoshi746",
+      "Orchestrated an interactive customer behavior dashboard in Tableau that visualized key financial KPIs, including EBITDA, PEG, and ROE, to analyze spending patterns across over 300 industries, enhancing insights into industry trends. Conducted comprehensive data analysis and cleaning, utilizing SQL-based transformations with MongoDB and calculated field operations to derive meaningful business insights from 5-year financial data.",
+    technologies: ["Tableau","Azure Data Studio","KPIs"],
+    link: "https://github.com/Khushi-12",
   },
+  {
+    title: "Vehicle Re-Identification Problem",
+    image: project4,
+    description:
+      "Engineered a vehicle re-identification system achieving 98% accuracy by integrating composite feature extraction using SIFT and advanced deep learning models like ResNet, Kalman Filtering, and OSNet. Further enhanced the system by incorporating Automatic Number Plate Recognition (ANPR) with PaddleOCR, providing contextual data to improve the robustness of fleet re-identification in video surveillance. The solution effectively optimized enterprise operations, supporting applications such as fleet management, customer acquisition analytics, and reducing response times for security monitoring by 40%.",
+    technologies: ["SIFT, ResNet, Kalman Filtering, OSNet, PaddleOCR, ANPR, Deep Learning"],
+    link: "https://github.com/Khushi-12",
+  },
+  {
+    title: "Image Segmentation Problem",
+    image: project4,
+    description:
+      "I developed a custom U-Net model and conducted comparative analysis with the automated selection of three advanced architectures—VGG19, Inception V4, and EfficientNet B0—for 3D MRI segmentation of internal organs, focusing on tumor delineation. This resulted in a 25% improvement in cancer treatment planning efficiency. Additionally, I enhanced a Dash application using Plotly to incorporate interactive tools for dynamic MRI scan exploration, enabling image captioning for efficient analysis, and addressing segmentation inaccuracies to improve workflow efficiency.",
+    technologies: ["Python","Tensorflows","Keras","U-Net", "Dash", "Plotly", "Machine Learning"],
+    link: "https://github.com/Khushi-12",
+  },
+  {
+    title: "Classifying Medical Specialty from Transcription Data",
+    image: project4,
+    description:
+      "Led the development of an ETL pipeline to extract, transform, and load data, effectively categorizing biomedical specialties into six distinct classes while addressing class imbalance issues. Utilized dimensionality reduction techniques such as t-SNE and PCA for effective visualization. Developed multiple machine learning models, including N-gram-based approaches with SVM, Random Forest, residual neural networks, and LSTM, achieving 86% accuracy in the classification of medical transcriptions.",
+    technologies: ["Python","PyTorch","Scikit-learn","XGBoost", "RandomForest", "tSNE", "Machine Learning"],
+    link: "https://github.com/Khushi-12",
+  },
+  {
+    title: "Statistical Modeling and Analysis of Flight Departure Delay and Risk Assessment",
+    image: project4,
+    description:
+      "Spearheaded a team of five in developing a robust Linear Regression model (OLS) using R for predicting flight departures, achieving a mean squared error (MSE) of 0.23. Leveraging statistical programming and predictive modeling packages, we attained 80% accuracy in predicting delays, with meticulous model selection based on AIC score. Statistical analyses, hypothesis testing, and visualizations using ggplot revealed a consistent 15-minute delay pattern, emphasizing the reliability and precision of the model.",
+    technologies: ["R","ggplot"],
+    link: "https://github.com/Khushi-12",
+  }
 ];
 
 export const CONTACT = {

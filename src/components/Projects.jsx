@@ -46,7 +46,9 @@ const Projects = () => {
                 </span>
               ))}
               <div className="mt-2 font-semibold">
-                <a href={PROJECTS.link}>Link to Repo</a>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                Project link
+              </a>
               </div>
             </motion.div>
           </div>

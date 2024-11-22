@@ -1,5 +1,5 @@
-import logo from "../assets/kevinRushLogo.png";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import logo from "../assets/khushineema.jpg";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -8,9 +8,25 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaTwitter />
+        {/* LinkedIn Icon */}
+        <a
+          href="https://www.linkedin.com/in/khushi-neema"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-neutral-400 hover:text-purple-500"
+        >
+          <FaLinkedin />
+        </a>
+
+        {/* GitHub Icon */}
+        <a
+          href="https://www.github.com/Khushi-12"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-neutral-400 hover:text-purple-500"
+        >
+          <FaGithub />
+        </a>
       </div>
     </nav>
   );

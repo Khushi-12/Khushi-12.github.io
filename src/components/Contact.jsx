@@ -20,7 +20,16 @@ const Contact = () => {
           href="#"
           className="border-b"
         >
-          {CONTACT.email}
+          <div className="text-neutral-200">
+            <p className="font-semibold"> Email: 
+            <a
+              href="mailto:khushineema5@gmail.com"
+              className="text-purple-400 hover:underline"
+            >
+              {"\t" + CONTACT.email}
+            </a>
+            </p>
+          </div>
         </motion.a>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -28,7 +37,16 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4 "
         >
-          {CONTACT.phoneNo}
+          <div className="text-neutral-200">
+            <p className="font-semibold">Phone:
+            <a
+              href="tel:+12016878959"
+              className="text-purple-400 hover:underline"
+            >
+              {"  "+CONTACT.phoneNo}
+            </a>
+            </p>
+          </div>
         </motion.p>
       </div>
     </div>

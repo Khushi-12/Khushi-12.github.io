@@ -2,6 +2,12 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpeg";
+import project8 from "../assets/projects/project-8.jpeg";
+
+
 
 export const HERO_CONTENT = `I'm Khushi Neema, a driven Data Scientist pursuing an MS in Data Science at Northeastern University, graduating in 2024. I blend deep academic knowledge from my background in computer science with practical experience in machine learning, AI, and predictive analytics. Throughout my experiences, from academia to industry, I've cultivated a robust skill set in machine learning, AI, and predictive analytics. These roles have enhanced my proficiency in using advanced tools such as Python, R, SQL, PyTorch, and TensorFlow, and have deepened my understanding of how data can drive decision-making and innovation. I'm passionate about leveraging data to uncover insights that inform strategic decisions and lead to tangible outcomes. I aim to continue developing solutions that are technically sound but also impactful and scalable. I'm excited to continue growing my skillset and make a meaningful contribution to a company in data science.`;
 export const ABOUT_TEXT = `I am Khushi Neema, a driven Data Scientist currently attending Northeastern University to complete my MS in Data Science in 2024. My academic trajectory in the field of computer science runs in conjunction with hands-on experience in machine learning, predictive analytics, and AI. My skill set runs deep in time series analysis, predictive modeling, image segmentation, and unsupervised learning techniques, including cluster analysis, using Python, R, SQL, PyTorch, and TensorFlow. I also have deep knowledge of cloud platforms such as AWS, GCP, and Azure, applied in scalable data processing and model deployment.
@@ -46,17 +52,17 @@ export const PROJECTS = [
     title: "Pharmacy Database management system",
     image: project1,
     description:
-      "I designed a relational database to optimize inventory operations, resulting in a 50% improvement in data retrieval efficiency. I developed, tested, debugged, and documented over 1,000 complex PL/SQL queries and database objects, including procedures, window functions, CTEs, and triggers, effectively aligning with business requirements and achieving an 85% satisfaction rate in data collection processes.",
+      "Optimized inventory operations with a relational database, leading to a 50% improvement in data retrieval efficiency. Developed, tested, debugged, and documented over 1,000 complex PL/SQL queries and database objects, ensuring alignment with business requirements and achieving an 85% satisfaction rate in data collection.",
     technologies: ["MYSQL Workbench","Flask","Python"],
-    link: "https://github.com/Khushi-12",
+    link: "https://github.com/Khushi-12/Breaking_DBMS",
   },
   {
     title: "News Research Tool",
     image: project2,
     description:
-      "Spearheaded the development of a Streamlit application with knowledge-based graph (KBG) capabilities, significantly enhancing the ETL pipeline and reducing processing time by 50%, enabling users to efficiently extract information from three relevant articles. Additionally, integrated a question-answering agent utilizing HuggingFace Transformers (BERT), along with LangChain and FAISS, to deliver accurate responses to user queries based on processed news articles.",
+      "Spearheaded the development of a Streamlit application with knowledge-based graph (KBG) capabilities, enhancing the ETL pipeline and reducing processing time by 50%. Users can efficiently extract information from three relevant articles. Integrated a question-answering agent using HuggingFace Transformers (BERT), LangChain, and FAISS to provide accurate responses to user queries based on processed news articles.",
     technologies: ["Streamlit", "Python", "HuggingFace", "LangChain", "FAISS", "ETL Pipeline"],
-    link: "https://github.com/Khushi-12",
+    link: "https://github.com/Khushi-12/News_Research_Tool",
   },
   {
     title: "Portfolio Website",
@@ -71,38 +77,38 @@ export const PROJECTS = [
     description:
       "Orchestrated an interactive customer behavior dashboard in Tableau that visualized key financial KPIs, including EBITDA, PEG, and ROE, to analyze spending patterns across over 300 industries, enhancing insights into industry trends. Conducted comprehensive data analysis and cleaning, utilizing SQL-based transformations with MongoDB and calculated field operations to derive meaningful business insights from 5-year financial data.",
     technologies: ["Tableau","Azure Data Studio","KPIs"],
-    link: "https://github.com/Khushi-12",
+    link: "https://github.com/Khushi-12/Financial-Analysis-Tableau",
   },
   {
     title: "Vehicle Re-Identification Problem",
-    image: project4,
+    image: project5,
     description:
-      "Engineered a vehicle re-identification system achieving 98% accuracy by integrating composite feature extraction using SIFT and advanced deep learning models like ResNet, Kalman Filtering, and OSNet. Further enhanced the system by incorporating Automatic Number Plate Recognition (ANPR) with PaddleOCR, providing contextual data to improve the robustness of fleet re-identification in video surveillance. The solution effectively optimized enterprise operations, supporting applications such as fleet management, customer acquisition analytics, and reducing response times for security monitoring by 40%.",
-    technologies: ["SIFT, ResNet, Kalman Filtering, OSNet, PaddleOCR, ANPR, Deep Learning"],
-    link: "https://github.com/Khushi-12",
+      "Engineered a vehicle re-identification system with 98% accuracy, integrating SIFT, ResNet, Kalman Filtering, and OSNet for feature extraction. Enhanced with ANPR using PaddleOCR for contextual data, improving fleet re-identification in video surveillance. Optimized enterprise operations, supporting fleet management, customer acquisition analytics, and reducing security monitoring response times by 40%.",
+    technologies: ["SIFT", "ResNet", "Kalman Filter", "OSNet", "PaddleOCR", "ANPR"],
+    link: "https://github.com/Khushi-12/vehicle-reidentification",
   },
   {
-    title: "Image Segmentation Problem",
-    image: project4,
+    title: "Image Segmentation Problem using custom U-Net and with Dash Application",
+    image: project6,
     description:
-      "I developed a custom U-Net model and conducted comparative analysis with the automated selection of three advanced architectures—VGG19, Inception V4, and EfficientNet B0—for 3D MRI segmentation of internal organs, focusing on tumor delineation. This resulted in a 25% improvement in cancer treatment planning efficiency. Additionally, I enhanced a Dash application using Plotly to incorporate interactive tools for dynamic MRI scan exploration, enabling image captioning for efficient analysis, and addressing segmentation inaccuracies to improve workflow efficiency.",
+      "I developed a custom U-Net model for 3D MRI segmentation of internal organs, specifically tumor delineation. Comparative analysis with advanced architectures (VGG19, Inception V4, EfficientNet B0) improved cancer treatment planning efficiency by 25%. I also enhanced a Dash application with interactive tools for dynamic MRI scan exploration, image captioning, and segmentation accuracy improvement, enhancing workflow efficiency.",
     technologies: ["Python","Tensorflows","Keras","U-Net", "Dash", "Plotly", "Machine Learning"],
-    link: "https://github.com/Khushi-12",
-  },
-  {
-    title: "Classifying Medical Specialty from Transcription Data",
-    image: project4,
-    description:
-      "Led the development of an ETL pipeline to extract, transform, and load data, effectively categorizing biomedical specialties into six distinct classes while addressing class imbalance issues. Utilized dimensionality reduction techniques such as t-SNE and PCA for effective visualization. Developed multiple machine learning models, including N-gram-based approaches with SVM, Random Forest, residual neural networks, and LSTM, achieving 86% accuracy in the classification of medical transcriptions.",
-    technologies: ["Python","PyTorch","Scikit-learn","XGBoost", "RandomForest", "tSNE", "Machine Learning"],
-    link: "https://github.com/Khushi-12",
+    link: "https://github.com/Khushi-12/Image-Segmentation-for-Gastrointestinal-Tract-Cancer",
   },
   {
     title: "Statistical Modeling and Analysis of Flight Departure Delay and Risk Assessment",
-    image: project4,
+    image: project7,
     description:
       "Spearheaded a team of five in developing a robust Linear Regression model (OLS) using R for predicting flight departures, achieving a mean squared error (MSE) of 0.23. Leveraging statistical programming and predictive modeling packages, we attained 80% accuracy in predicting delays, with meticulous model selection based on AIC score. Statistical analyses, hypothesis testing, and visualizations using ggplot revealed a consistent 15-minute delay pattern, emphasizing the reliability and precision of the model.",
-    technologies: ["R","ggplot"],
+    technologies: ["R","ggplot" ],
+    link: "https://github.com/Khushi-12",
+  },
+  { 
+    title: "Classifying Medical Specialty from Audio Transcription Data",
+    image: project8,
+    description:
+      "Led the development of an ETL pipeline to extract, transform, and load data, effectively categorizing biomedical specialties into six distinct classes while addressing class imbalance issues. Utilized dimensionality reduction techniques such as t-SNE and PCA for effective visualization. Developed multiple machine learning models, including N-gram-based approaches with SVM, Random Forest, residual neural networks, and LSTM, achieving 86% accuracy in the classification of medical transcriptions.",
+    technologies: ["Python","PyTorch","Scikit-learn","XGBoost", "RandomForest", "tSNE"],
     link: "https://github.com/Khushi-12",
   }
 ];

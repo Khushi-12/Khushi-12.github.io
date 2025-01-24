@@ -9,12 +9,10 @@ import project8 from "../assets/projects/project-8.jpeg";
 
 
 
-export const HERO_CONTENT = `I'm Khushi Neema, a driven Data Scientist pursuing an MS in Data Science at Northeastern University, graduating in 2024. I blend deep academic knowledge from my background in computer science with practical experience in machine learning, AI, and predictive analytics. Throughout my experiences, from academia to industry, I've cultivated a robust skill set in machine learning, AI, and predictive analytics. These roles have enhanced my proficiency in using advanced tools such as Python, R, SQL, PyTorch, and TensorFlow, and have deepened my understanding of how data can drive decision-making and innovation. I'm passionate about leveraging data to uncover insights that inform strategic decisions and lead to tangible outcomes. I aim to continue developing solutions that are technically sound but also impactful and scalable. I'm excited to continue growing my skillset and make a meaningful contribution to a company in data science.`;
-export const ABOUT_TEXT = `I am Khushi Neema, a driven Data Scientist currently attending Northeastern University to complete my MS in Data Science in 2024. My academic trajectory in the field of computer science runs in conjunction with hands-on experience in machine learning, predictive analytics, and AI. My skill set runs deep in time series analysis, predictive modeling, image segmentation, and unsupervised learning techniques, including cluster analysis, using Python, R, SQL, PyTorch, and TensorFlow. I also have deep knowledge of cloud platforms such as AWS, GCP, and Azure, applied in scalable data processing and model deployment.
+export const HERO_CONTENT = `I am Khushi Neema, a dedicated Data Scientist completed my Masters in Data Science at Northeastern University, set to graduate in 2024. With a strong foundation in computer science, I bring practical experience in machine learning, AI, and predictive analytics. I am proficient in using advanced tools such as Python, R, SQL, PyTorch, and TensorFlow, which I leverage to drive strategic decision-making and foster innovation. My passion lies in uncovering data-driven insights that inform strategic decisions and lead to tangible outcomes. I am committed to developing solutions that are both technically robust and scalable, and I aspire to make meaningful contributions to a forward-thinking company in the data science field.`;
+export const ABOUT_TEXT = `I am Khushi Neema, a driven Data Scientist currently pursuing my MS in Data Science at Northeastern University, set to graduate in 2024. With a strong foundation in computer science, I bring hands-on experience in machine learning, predictive analytics, and AI, specializing in time series analysis, predictive modeling, image segmentation, and unsupervised learning techniques such as cluster analysis. Proficient in Python, R, SQL, PyTorch, and TensorFlow, I also have deep knowledge of cloud platforms like AWS, GCP, and Azure, which I utilize for scalable data processing and model deployment. Throughout my career, I have empowered actionable insights through data by implementing demand forecasting, anomaly detection, optimizing data pipelines, and developing custom models, ensuring that solutions are both technically viable and scalable to drive meaningful, strategic outcomes.
 
-Throughout my career, in various roles in different industries, I learned the art of empowering actionable insights through data. I ensure that any solution is technically viable and can be scaled. For example, large-scale datasets were used for implementing demand forecasting and anomaly detection; optimization of data processing pipelines was performed, and unique challenges of data were modeled with custom models. My goal is to make sure meaningful, strategic outcomes are driven with data.
-
- Outside of coding, I enjoy problem-solving activities like Sudoku and crosswords that help develop my logical reasoning. I also enjoy staying active through sports and hiking, and I really like the competitive and team aspects eSports brings. I am excited about continuing my career in data science by developing impactful solutions, ones that will move not only this field forward but create real value out in the world.`;
+Beyond my technical expertise, I am passionate about problem-solving activities like Sudoku and crosswords that enhance my logical reasoning. I stay active through sports and hiking, and I enjoy the competitive and team aspects of eSports. Additionally, I love to travel, which broadens my perspectives and fuels my creativity. I am excited to continue my career in data science by developing impactful solutions that not only advance the field but also create real value in the world. My goal is to contribute to a forward-thinking company where I can leverage my skills to drive innovation and achieve tangible results.`;
 
 export const EXPERIENCES = [
   {
@@ -65,13 +63,6 @@ export const PROJECTS = [
     link: "https://github.com/Khushi-12/News_Research_Tool",
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
     title: "Industrial Financial Health Analysis",
     image: project4,
     description:
@@ -79,14 +70,14 @@ export const PROJECTS = [
     technologies: ["Tableau","Azure Data Studio","KPIs"],
     link: "https://github.com/Khushi-12/Financial-Analysis-Tableau",
   },
-  {
-    title: "Vehicle Re-Identification Problem",
-    image: project5,
-    description:
-      "Engineered a vehicle re-identification system with 98% accuracy, integrating SIFT, ResNet, Kalman Filtering, and OSNet for feature extraction. Enhanced with ANPR using PaddleOCR for contextual data, improving fleet re-identification in video surveillance. Optimized enterprise operations, supporting fleet management, customer acquisition analytics, and reducing security monitoring response times by 40%.",
-    technologies: ["SIFT", "ResNet", "Kalman Filter", "OSNet", "PaddleOCR", "ANPR"],
-    link: "https://github.com/Khushi-12/vehicle-reidentification",
-  },
+  // {
+  //   title: "Vehicle Re-Identification Problem",
+  //   image: project5,
+  //   description:
+  //     "Engineered a vehicle re-identification system with 98% accuracy, integrating SIFT, ResNet, Kalman Filtering, and OSNet for feature extraction. Enhanced with ANPR using PaddleOCR for contextual data, improving fleet re-identification in video surveillance. Optimized enterprise operations, supporting fleet management, customer acquisition analytics, and reducing security monitoring response times by 40%.",
+  //   technologies: ["SIFT", "ResNet", "Kalman Filter", "OSNet", "PaddleOCR", "ANPR"],
+  //   link: "https://github.com/Khushi-12/vehicle-reidentification",
+  // },
   {
     title: "Image Segmentation Problem using custom U-Net and with Dash Application",
     image: project6,
@@ -95,23 +86,14 @@ export const PROJECTS = [
     technologies: ["Python","Tensorflows","Keras","U-Net", "Dash", "Plotly", "Machine Learning"],
     link: "https://github.com/Khushi-12/Image-Segmentation-for-Gastrointestinal-Tract-Cancer",
   },
-  {
-    title: "Statistical Modeling and Analysis of Flight Departure Delay and Risk Assessment",
-    image: project7,
-    description:
-      "Spearheaded a team of five in developing a robust Linear Regression model (OLS) using R for predicting flight departures, achieving a mean squared error (MSE) of 0.23. Leveraging statistical programming and predictive modeling packages, we attained 80% accuracy in predicting delays, with meticulous model selection based on AIC score. Statistical analyses, hypothesis testing, and visualizations using ggplot revealed a consistent 15-minute delay pattern, emphasizing the reliability and precision of the model.",
-    technologies: ["R","ggplot" ],
-    link: "https://github.com/Khushi-12",
-  },
-  { 
-    title: "Classifying Medical Specialty from Audio Transcription Data",
-    image: project8,
-    description:
-      "Led the development of an ETL pipeline to extract, transform, and load data, effectively categorizing biomedical specialties into six distinct classes while addressing class imbalance issues. Utilized dimensionality reduction techniques such as t-SNE and PCA for effective visualization. Developed multiple machine learning models, including N-gram-based approaches with SVM, Random Forest, residual neural networks, and LSTM, achieving 86% accuracy in the classification of medical transcriptions.",
-    technologies: ["Python","PyTorch","Scikit-learn","XGBoost", "RandomForest", "tSNE"],
-    link: "https://github.com/Khushi-12",
-  }
+  
+
 ];
+
+export const MORE_PROJECTS_BUTTON = {
+  text: "More Projects on GitHub",
+  link: "https://github.com/Khushi-12",
+};
 
 export const CONTACT = {
   phoneNo: "+1 2016878959 ",

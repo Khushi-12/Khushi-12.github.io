@@ -54,6 +54,18 @@ const Projects = () => {
           </div>
         ))}
       </div>
+
+      <div className="mt-10 text-center">
+        <a
+          href="https://github.com/Khushi-12"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block rounded bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700"
+        >
+          More Projects
+        </a>
+
+      </div>
     </div>
   );
 };

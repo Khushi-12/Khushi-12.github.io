@@ -16,7 +16,14 @@ Beyond my technical expertise, I am passionate about problem-solving activities 
 
 export const EXPERIENCES = [
   {
-    year: "Jul 2024 - Present",
+    year: "April 2025 - Present",
+    role: "Data Scientist",
+    company: "Aetna - CVS Health Company",
+    description: "At Aetna Mental Wellbeing, I led a whitepaper initiative exploring the business and clinical impact of treating mental health conditions on co-occurring chronic diseases. By analyzing millions of records from BigQuery and combining over 70 clinical and behavioral metrics, I developed proprietary *Therapy Impact Factors* to quantify the downstream effect of therapy on cost reduction, severity, and health outcomes. Using robust statistical methods—including permutation tests, effect sizes, and SMDs—I demonstrated measurable improvements when mental health is addressed early. Visual insights were built using Plotly and Seaborn on Vertex AI to support executive level decision making. In parallel, I built a predictive model to identify members at risk of opioid abuse, integrating 250+ indicators across claims, demographics, and social factors, achieving an AUC of 0.80. Both projects support value-based care strategies and targeted interventions that reduce healthcare costs while improving outcomes.",
+    technologies: ["Google Cloud Platform","BigQuery","Python"]
+  },
+  {
+    year: "Jul 2024 - April 2025",
     role: "Machine Learning Engineer",
     company: "Anfluss Inc",
     description: `integrated a PineCone vector database to support Retrieval-Augmented Generation (RAG) over a 20GB dataset, streamlining diverse data ingestion formats through Azure OpenAI for embeddings and DeepSpeed for multi-GPU training. Additionally, I employed the Gemma LLM model for prompt responses, boosting data retrieval efficiency by 25%. This solution was benchmarked against leading Q&A bots, incorporating Microsoft Power Automate for tracking business metrics and delivering insights, which enhanced customer satisfaction and SaaS performance significantly.`,
